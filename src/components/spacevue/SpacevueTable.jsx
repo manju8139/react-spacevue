@@ -113,11 +113,7 @@ function SpacevueTable() {
           )}
         </div>
         <div className="chart">
-          {state.loading ? (
-            <h1>....Loading</h1>
-          ) : (
-            <AgChartsReact options={chartOptions} />
-          )}
+          <AgChartsReact options={chartOptions} />
         </div>
       </div>
     </div>
