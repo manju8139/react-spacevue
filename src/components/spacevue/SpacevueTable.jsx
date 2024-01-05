@@ -94,7 +94,7 @@ function SpacevueTable() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar logValue="logout" />
       <div className="space-main">
         <div
           className="ag-theme-quartz"
